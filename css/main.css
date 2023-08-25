@@ -78,6 +78,7 @@ font-family: 'Open Sans', sans-serif;
 display: inline-block;
 margin: 5px;
 font-family: 'RZDmedium';
+font-size: 18px;
 }
 
 .nav {
@@ -91,12 +92,24 @@ font-family: 'RZDmedium';
 
 .ovals {
     font-family:'FS';
-    font-size: 10px;
+    font-size: 14px;
     color: #4d5d66;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
+@media screen and (max-width:393px) {
+    .ovals {
+        font-family:'FS';
+        font-size: 10px;
+        color: #4d5d66;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+    
+
 
 .oval {
     display: inline-block;
@@ -121,7 +134,7 @@ font-family: 'RZDmedium';
 .number {
     font-family: 'FS';
     color: #324957;
-    font-size: 10px;
+    font-size: 14px;
     display: flex;
     padding: 10px;
     padding-top: 12px;
@@ -160,11 +173,12 @@ font-family: 'RZDmedium';
 
 .img1{
     border-radius: 6px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     background-color: #ffffff;
     z-index: 1;
     position: absolute;
     max-width: 93vw;
+   
 
 }
 
