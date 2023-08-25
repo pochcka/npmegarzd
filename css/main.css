@@ -78,13 +78,13 @@ font-family: 'Open Sans', sans-serif;
 display: inline-block;
 margin: 5px;
 font-family: 'RZDmedium';
-font-size: 28px;
+font-size: 22px;
 }
 
 .nav {
     display: flex;
     align-content: stretch;
-    align-items: flex-end;
+    align-items: center;
     color: white;
     margin-left: 5px;
     justify-content: flex-start;
