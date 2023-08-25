@@ -78,7 +78,7 @@ font-family: 'Open Sans', sans-serif;
 display: inline-block;
 margin: 5px;
 font-family: 'RZDmedium';
-font-size: 24px;
+font-size: 28px;
 }
 
 .nav {
@@ -88,6 +88,8 @@ font-size: 24px;
     color: white;
     margin-left: 5px;
     justify-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .ovals {
